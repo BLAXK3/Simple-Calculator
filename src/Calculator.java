@@ -119,7 +119,7 @@ public class Calculator {
                 }
                 textField.setText("");
             } else {
-                if (!texts.matches(".*[+*\\-/÷×%=DELGithub].*")) {
+                if (!texts.matches(".*[+*\\-/÷×%=DEL].*")) {
                     if (texts.equals(".") && !textField.getText().isEmpty()) {
                         textField.setText(previousText + texts);
                     } else {
